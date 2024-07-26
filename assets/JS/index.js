@@ -21,15 +21,15 @@ const getFetch = function () {
                 <div class="col">
                     <div class="card">
                         <img
-                            src="https://uninuoro.it/wp-content/uploads/2018/08/aditya-chinchure-494048-unsplash.jpg"
+                            src="${wine.imageUrl || 'https://uninuoro.it/wp-content/uploads/2018/08/aditya-chinchure-494048-unsplash.jpg'}
                             class="card-img-top"
-                            alt="event pic"
+                            alt="wine pic"
                         />
                         <div class="card-body text-center">
-                            <h5 class="card-title">${wine.name}</h5>
-                            <p class="card-text">${wine.description}</p>
-                            <p class="card-text">${wine.time}</p>
-                            <a href="./details.html?eventId=${wine._id}" class="btn btn-primary w-100">Vai ai dettagli</a>
+                            <h5 class="card-title title-overflow">${wine.name}</h5>
+                            <p class="card-text"></p>
+                            <p class="card-text">${wine.brand}</p>
+                            <a href="details.html?wineId=${wine._id}" class="btn btn-primary w-100">Vai ai dettagli</a>
                         </div>
                     </div>
                 </div>
