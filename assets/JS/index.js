@@ -34,7 +34,7 @@ const getFetch = function () {
                     </div>
                 </div>
             `
-
+            
             const wineCard = document.getElementById('wineCard')
             wineCard.innerHTML = wineCard.innerHTML + newProduct
         })

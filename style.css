@@ -1,3 +1,43 @@
 #ancorNav{
     width: 5em;
 }
+#wineCard .card {
+    width: 16rem;
+   
+}
+.card{
+    display: flex;
+    align-items: center;
+}
+.card img {
+    height: 15rem;
+    object-fit: contain;
+    margin: 2em;
+}
+.card-body {
+    flex-grow: 1;
+}
+.title-overflow{
+    height: 3em;    
+    overflow:hidden;   
+    text-overflow:ellipsis;   
+    white-space: wrap;     
+    cursor: pointer;         
+}
+.expanded-text{
+    height: auto;              
+    white-space:normal;       
+    }
+    body{
+        background: url(assets/IMG/grapes-1952035_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1{
+        color: rgb(33, 38, 36);
+        font-size: 5em;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
