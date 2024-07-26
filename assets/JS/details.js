@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <a href="#" class="btn btn-primary mt-3">${wineData.price}€ COMPRA</a>
                         </div>
                         <div class="fit-content mx-auto p-3">
-                            <h3>TASTI ADMIN</h3>
+        
                             <div>
                                 <a href="back-office.html?wineId=${wineData._id}" class="btn btn-success">MODIFICA</a>
                                 <button class="btn btn-danger" onclick="deleteWine()">ELIMINA</button>
