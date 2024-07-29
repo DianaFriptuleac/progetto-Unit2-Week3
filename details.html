@@ -10,9 +10,9 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <nav class="navbar navbar-expand-md bg-danger">
             <div class="container-fluid">
-              <a class="navbar-brand" id="ancorNav" href="#">
+              <a class="navbar-brand" id="ancorNav" href="index.html">
                 <img src="assets/IMG/logo-wine.png" class="w-100" alt="logo-shop">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,28 +22,17 @@
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                   <li class="nav-item">
                     <a
-                      class="nav-link active"
+                      class="nav-link active fs-5"
                       aria-current="page"
                       href="index.html"
                       >Home</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="back-office.html">Back-office</a>
+                    <a class="nav-link fs-5" href="back-office.html">Back-office</a>
                   </li>
 
                 </ul>
-                <form class="d-flex" role="search">
-                  <input
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Search your wine"
-                    aria-label="Search"
-                  />
-                  <button class="btn btn-outline-danger" type="submit">
-                    Search
-                  </button>
-                </form>
               </div>
             </div>
           </nav>
@@ -53,13 +42,31 @@
             <h1>Wine Connection</h1>
           </div>
           <div class="container mt-5">
+            <div class="row">
             <div
               class="row justify-content-center"
               id="detailWine"
             >
             </div>
+           </div>
           </div>
         </main>
+        <footer class="mt-5">
+          <div class="container-fluid">
+              <div class="row bg-black row-cols-12">
+                  <div class="col  d-flex justify-content-center mt-3 mb-2">
+                      <button type="button" class="btn btn-outline-secondary mt-2"><a href="https://wineconnection.co.th/">Contattaci</a></button>
+                  </div>
+              </div>
+              <div class="row bg-black row-cols-12">
+                  <div class="col mb-1">
+                      <p class="text-center text-light">
+                          &copy 2024 Wine Connection
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </footer>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

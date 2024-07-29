@@ -99,10 +99,14 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .then((data) => {
                 console.log('Success:', data)
+                alert ('Prodotto salvato!')
+                window.location.href = 'index.html'
             })
             .catch((error) => {
                 console.error('Errore:', error)
             })
         })
+    } else{
+        console.log('form non trovato')
     }
 })

@@ -1,5 +1,15 @@
+html, body{
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
 #ancorNav{
-    width: 5em;
+    width: 6em;
 }
 #wineCard .card {
     width: 16rem;
@@ -34,10 +44,17 @@
         background-size: cover;
     }
     h1{
-        color: rgb(33, 38, 36);
+        color: rgb(199, 24, 8);
         font-size: 5em;
+       font-style: italic;
     }
     footer a{
         text-decoration: none;
         color: white;
+    }
+   .card{
+        box-shadow: 6px 2px 30px 0px #000000;
+    }
+    footer{
+        flex-shrink: 0;
     }

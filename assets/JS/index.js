@@ -19,7 +19,7 @@ const getFetch = function () {
         arrayElements.forEach((wine) => {
             const newProduct = `
                 <div class="col">
-                    <div class="card">
+                    <div class="card rounded">
                         <img
                             src="${wine.imageUrl || 'https://uninuoro.it/wp-content/uploads/2018/08/aditya-chinchure-494048-unsplash.jpg'}
                             class="card-img-top"
@@ -29,7 +29,7 @@ const getFetch = function () {
                             <h5 class="card-title title-overflow">${wine.name}</h5>
                             <p class="card-text"></p>
                             <p class="card-text">${wine.brand}</p>
-                            <a href="details.html?wineId=${wine._id}" class="btn btn-primary w-100">Vai ai dettagli</a>
+                            <a href="details.html?wineId=${wine._id}" class="btn btn-danger w-100">Vai ai dettagli</a>
                         </div>
                     </div>
                 </div>
